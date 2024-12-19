@@ -1,0 +1,89 @@
+آ<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة شخصية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            
+            background:linear-gradient(to right, #f8cdda, #2c0231);
+            display:flex;
+            align-items: center;
+            flex-direction:column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            margin-top: 20px;
+        }
+        .widthimg {
+            width: 200px;
+            height: 250px;
+            border-radius: 70%;
+            object-fit: cover;
+        }
+        img {
+            width: 40px;
+            height: auto;
+        }
+        .l {
+            background-color: blanchedalmond;
+            display: block;/* جعل الايقونات على شكل بلوك*/
+            margin: 10px;/* المسافه بين الايقونات*/
+            width: 200px;
+            height: 150px;
+            border-radius: 15px;/*لجعل شكل اليقونات محدب*/
+            text-decoration: none;/*لحذف الخط من تحت اسم الرابط*/
+            color: rgb(30, 4, 4);/* لون خط الرابط*/
+            font-size: xx-large;/*حجم الخط*/
+            border: 2px solid rgb(237, 240, 243);
+            padding: 10px;
+            font-style: italic;
+           
+            text-align: center; 
+            line-height: 200px; 
+        
+        }
+       
+        .l:hover {
+            background-color: rgb(243, 245, 240);
+            transform: scale(1.05 );
+         
+        }
+        p {
+            font-size: 24px;
+            font-weight: bold;
+            color:blanchedalmond;
+        }
+        
+        nav {
+            display: block;
+            justify-content: center;
+        }
+        nav a {
+            margin: 0 10px; /* مسافة بين الأيقونات */
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <img  class="widthimg" src="https://raw.githubusercontent.com/motasim-saed/motasim-saed/616c7d6697874064a973baa06aa6d5d3256cb1ec/%D9%A2%D9%A0%D9%A2%D9%A3%D9%A0%D9%A6%D9%A2%D9%A8_%D9%A1%D9%A0%D9%A4%D9%A8%D9%A3%D9%A1.jpg" alt="" >
+        <p>Motasim Al-Salahi</p>
+    </header>
+    <nav>
+        <h2>وسائل التواصل الاجتماعي</h2>
+        <a href="#"><i class="fab fa-whatsapp" style="font-size: 40px; color: black;"></i></a>
+        <a href="#"><i class="fab fa-facebook" style="font-size: 40px; color: black;"></i></a>
+        <a href="#"><i class="fab fa-telegram" style="font-size: 40px; color: black;"></i></a>
+    </nav>
+    <nav>
+        <a href="https://wa.me/967771511800" class="l"><i class="fab fa-whatsapp" style="font-size: 100px; color: black;"></i> واتساب</a>
+        <a href="https://www.facebook.com/profile.php?id=100034580971671&mibextid=ZbWKwL" class="l"><i class="fab fa-facebook" style="font-size: 100px; color: black;"></i> فيسبوك</a>
+        <a href="https://t.me/motasimsaeed" class="l"><i class="fab fa-telegram" style="font-size: 100px; color: black;"></i> تليجرام</a>
+        <a href="tel:+96777151800" class="l"><i class="fas fa-phone" style="font-size: 100px; color: black;"></i> هاتف</a>
+    </nav>
+</body>
+</html>
